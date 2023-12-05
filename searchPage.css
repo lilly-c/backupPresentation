@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(247, 245, 244);
+  /*background-color: whitesmoke;*/
+}
+
+
+.container1 {
+  display: flex;
+  height: 250px;
+
+
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  border: 1px solid black;
+  gap: -100vw;
+  background-image: url("/Images/FoodBackground.jpg");
+  background-repeat: no-repeat;
+  /*background-repeat: no-repeat; */
+  background-size: 1550px 400px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.child:nth-last-child(1) {
+  order: 1;
+}
+.child:nth-last-child(2) {
+  order: 2;
+}
+.child:nth-last-child(3) {
+  order: 3;
+}
+
+
+.child:nth-last-child(4) {
+  order: 4;
+}
+
+
+#zipcode {
+  width: 150px;
+  height: 30px;
+}
+
+
+#storesDropdown {
+  width: 200px;
+  height: 30px;
+}
+
+
+.foodSearch {
+  width: 100px;
+  height: 30px;
+}
+
+
+.itemTableCls {
+  position: relative;
+  background: rgb(175, 183, 175);
+  top: 5;
+  left: 80px;
+  right: 50px;
+}

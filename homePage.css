@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(247, 245, 244);
+  /*background-color: whitesmoke;*/
+}
+
+
+.topBanner {
+  height: 250px;
+  background-image: url("/Images/FoodBackground.jpg");
+  background-repeat: no-repeat;
+  /*background-repeat: no-repeat; */
+  background-size: 1550px 400px;
+}
+
+
+.homeContainer {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+}
+
+
+.homePara1 {
+  text-align: center;
+  padding-left: 100pt;
+  padding-right: 100pt;
+  font-family: Arial;
+  font-size: 1.2rem;
+  /*background-color: rgb(241, 216, 181);*/
+}
+
+
+.homePara2 {
+  text-align: center;
+  padding-left: 100pt;
+  padding-right: 100pt;
+  font-family: Arial;
+  font-weight: bold; 
+  color:rgb(255, 132, 0);
+  font-size: 1.2rem;
+  
+}
+
+.homeHR{
+  border: 2px solid rgb(172, 184, 172);
+  border-radius: 5px;
+}
+
+.foodSearchButton {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  height: 48px;
+  width: 800px;
+}
+
+.foodSearchButton:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.foodSearchButton:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
